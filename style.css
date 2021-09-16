@@ -2,11 +2,33 @@ body {
     height: 50%;
 }
 
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
 .gradient {
-    background: #d7e8da;
-    background: linear-gradient (90deg, rgba(215,232,218,1) 1%, rgba(43,124,78,1) 100%);
+    background: rgb(215,232,218);
+    background: linear-gradient(90deg, rgba(215,232,218,1) 1%, rgba(43,124,78,1) 100%);
 }
 
 .page-header {
     margin-top: 4rem;
+    font-size: 1.25rem;
+    color: darkslategrey;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+h2 {
+    font-family:'Times New Roman', Times, serif
+}
+
+.madison {
+    height: 250px;
+    width: 300px;
+}
+

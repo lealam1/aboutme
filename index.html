@@ -1,20 +1,22 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <title>About Me</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">navbar</a> 
+          <a class="navbar-brand" href="#">
+            <div class="logo-image">
+              <img src="img/logo.jpg" class="img-fluid">
+            </div>
+          </a> 
           <button
             class="navbar-toggler"
             type="button"
@@ -24,7 +26,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class-="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarnav">
           <ul class="navbar-nav">
@@ -42,16 +44,23 @@
         </div>
       </nav>
       <header class="page-header gradient"> 
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">text</div>
+        <div class="container pt-3">
+          <div class="row align-items-center justify-content-end">
+            <div class="col-md-5">
+              <h2>A website about me!</h2>
+              <p>Hello, my name is Lea Lam. I was born in Delaware, then i moved to Tennesee when i was about 12 years old. 
+                I am currently a student at Madison Academic and i work at Polished Salon!</p>
+              <button type="button" class="btn btn-outline success">yes</button>
+              <button type="button" class="btn btn-outline secondary">no</button>
+            </div>
             <div class="col-md-6">
               <img 
-                src="cat.jpg"
-                alt="Header image">
+                src="img/madison.jpg"
+                alt="Header image" class="madison"/>
             </div>
           </div>
         </div>
       </header>
-  </body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+      </body>
 </html>
