@@ -12,7 +12,7 @@ body {
 
 .gradient {
     background: rgb(215,232,218);
-    background: linear-gradient(90deg, rgba(215,232,218,1) 1%, rgba(43,124,78,1) 100%);
+    background: linear-gradient(90deg, rgba(215,232,218,1) 1%, rgb(43, 105, 124) 100%);
 }
 
 .page-header {
@@ -28,7 +28,24 @@ h2 {
 }
 
 .madison {
-    height: 250px;
-    width: 300px;
+    height: 300px;
+    width: 350px;
 }
 
+.delaware {
+    height: 300px;
+    width: 450px;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif
+}
+
+.feature {
+    color:rgb(65, 104, 75)
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type:armenian
+}
