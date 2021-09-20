@@ -1,5 +1,6 @@
 body {
     height: 50%;
+    background-color: linen;
 }
 
 .logo-image{
@@ -48,4 +49,60 @@ h1 {
 .feature ul {
     padding-left: 2rem;
     list-style-type:armenian
+}
+
+.icon {
+    color:antiquewhite;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h3 {
+    color:darkcyan;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(22, 78, 95);
+}
+
+.gallery {
+    background-color: #E9DCC9;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.servicey {
+    border-radius: 5%;
+}
+
+.serviced {
+    height: 200px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.service {
+    height: 200px;
+    width: 400px;
+    border-radius: 5%;
+}
+
+services {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(43, 105, 124);
+}
+
+.container-fluid {
+    background-color: #E9DCC9;
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
 }
